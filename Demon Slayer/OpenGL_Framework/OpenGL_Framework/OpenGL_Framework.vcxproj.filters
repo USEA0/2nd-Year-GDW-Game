@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4e991f7f-1183-4b70-82d2-cffb8ae3476b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1ca8a63a-f485-4974-aba7-4455f3487542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bloom">
+      <UniqueIdentifier>{d6dce1ba-f099-4a8e-8433-99c809ed839a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Particles">
+      <UniqueIdentifier>{d376ca99-73ed-46cc-8c4d-6269ac051b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Toon">
+      <UniqueIdentifier>{41d8ca43-aecb-475c-8b23-6d0122e10a06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FmodWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FmodWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Main.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\PassThrough.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\UI.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\Bloom\BloomComposite.frag">
+      <Filter>Resource Files\Bloom</Filter>
+    </None>
+    <None Include="Assets\Shaders\Bloom\BloomHighPass.frag">
+      <Filter>Resource Files\Bloom</Filter>
+    </None>
+    <None Include="Assets\Shaders\Bloom\BlurHorizontal.frag">
+      <Filter>Resource Files\Bloom</Filter>
+    </None>
+    <None Include="Assets\Shaders\Bloom\BlurVertical.frag">
+      <Filter>Resource Files\Bloom</Filter>
+    </None>
+    <None Include="Assets\Shaders\LUT.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\PassThrough.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\DeferredLighting.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\Particles\BillBoard.frag">
+      <Filter>Resource Files\Particles</Filter>
+    </None>
+    <None Include="Assets\Shaders\Particles\BillBoard.geom">
+      <Filter>Resource Files\Particles</Filter>
+    </None>
+    <None Include="Assets\Shaders\Particles\BillBoard.vert">
+      <Filter>Resource Files\Particles</Filter>
+    </None>
+    <None Include="Assets\Shaders\Toon\Sobel.frag">
+      <Filter>Resource Files\Toon</Filter>
+    </None>
+    <None Include="Assets\Shaders\Screen.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\dofHorizontal.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\dofVertical.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\NoLight.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
